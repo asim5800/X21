@@ -22,6 +22,8 @@ Since we have 57 features/columns in the dataset for any real world problem of c
 
 For selecting features, the importance of ExtraTreesclassifier was used. Those top 10 features that were contributing the most in the prediction were selected for further analysis and training purposes. Output of feature importance showed that X21 is the most important feature and the second we have X7.
 
+NOTE- INSTEAD OF TOP 10 TOP 'k' FEATURES CAN BE SELECTED. THIS SELECTION IS SUBJECT TO DOMAIN EXPERT/PROBLEM STATEMENT. 
+
 Created new dataframe only of those top 10 features that were shown by ExtraTreesclassifier. After creating dataframe performed some analysis and removed outliers as another part of data preprocessing. Outlier treatment resulted in 525 fewer observations than the original dataset.
 
 In the dataset class distribution was 35% as 1/y and 65% as 0/n.
